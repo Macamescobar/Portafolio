@@ -1,0 +1,109 @@
+.section-about {
+    background-color: $color-primary;
+    padding: 25rem 0;
+    margin-top: -20vh;
+}
+
+.section-features {
+    padding: 20rem 0;
+    background-color: $color-white;
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+
+    &--title {
+        color: $color-black;
+        font-size: 4rem;
+
+    }
+
+    &>* {
+        transform: skewY(7deg);
+    }
+
+
+}
+
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0rem 15rem 0rem;
+    margin-top: -30rem;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: 3rem;
+    justify-content: center;
+
+    @include respond(phone) {
+
+        border-radius: 3px;
+        display: grid;
+        grid-template-columns:max-content;
+        gap: 4rem;
+
+        &__side {
+            height: auto;
+            position: relative;
+            box-shadow: none;
+
+            &--back {
+                transform: rotateY(0);
+                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+            }
+        }
+
+        &:hover &__side--front {
+            transform: rotateY(0);
+        }
+
+
+        &__details {
+            padding: 1rem 3rem;
+        }
+
+        // FRONT SIDE STYLING
+        &__cta {
+            position: relative;
+            top: 0%;
+            left: 0;
+            transform: translate(0);
+            width: 100%;
+            padding: 7rem 4rem 4rem 4rem;
+        }
+
+        &__price-box {
+            margin-bottom: 3rem;
+        }
+
+        &__price-value {
+            font-size: 4rem;
+        }
+
+
+        .cards__picture--1,
+        .cards__picture--2,
+        .cards__picture--3 {
+            width: 48rem;
+        }
+    }
+}
+
+
+.section-projects {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 15rem 0;
+    margin-top: -18rem;
+
+    &__heading {
+        font-size: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: black;
+    }
+}
+
+.section-company {
+    padding: 18rem 0 10rem 0;
+
+}

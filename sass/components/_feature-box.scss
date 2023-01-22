@@ -1,0 +1,64 @@
+.icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    margin-top: 2rem;
+
+    &__html {
+    transition: transform .3s;
+    color:red;
+    }
+
+    &__css {
+        color: #2965f1;
+    }
+
+    &__js {
+        color: #f0db4f;
+    }
+
+    &__react {
+        color: #61DBFB;
+    }
+
+    &__sass {
+        color: #c69;
+    }
+
+    &__git {
+        color: #F1502F;
+    }
+
+    &__gitHub {
+        color:#333;
+    }
+
+    &__npm {
+        color: red;
+    }
+
+    &__yarn {
+        color: #328eba;
+    }
+
+    &__bootstrap {
+        color: $color-primary;
+    }
+
+    &__materialui {
+        
+        img {
+            width: 6rem;
+            height: 5rem;
+        }
+    }
+
+    &__node {
+        color: #68A063;
+    }
+
+}
+
+
