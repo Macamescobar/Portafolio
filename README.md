@@ -2,15 +2,15 @@
 # Portfolio Macarena Muñoz
 
 
-![portada img](/Natours/starter/img/img1.png)
+![portada img](/img/img1.png)
 
 
-![description img](/Natours/starter/img/img2.png)
+![description img](/img/img2.png)
 
-![dev tools and languagues img](/Natours/starter/img/img3.png)
+![dev tools and languagues img](/img/img3.png)
 
-![projects img](/Natours/starter/img/img4.png)
+![projects img](/img/img4.png)
 
-![company img](/Natours/starter/img/img5.png)
+![company img](/img/img5.png)
 
-![footer img](/Natours/starter/img/img6.png)# Portafolio
+![footer img](/img/img6.png)
